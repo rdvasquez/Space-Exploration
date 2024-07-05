@@ -1,0 +1,78 @@
+body {
+  font-family: Franklin Gothic;
+  color: white;
+  margin: 0;
+}
+
+.feature {
+  height: 100vh;
+  background-image: url(./space.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  position: absolute;
+  bottom: 50px;
+  width: 100px;
+  left: 50px;
+}
+
+header {
+  position: fixed;
+  color: #fff;
+  display: flex;
+  padding: 3rem;
+  gap: 3rem;
+  z-index: 1;
+}
+
+h1 {
+  margin: 0;
+  font-size: xx-large;
+}
+
+h2 {
+  font-family: Franklin Gothic Medium;
+  color: #00008b;
+  margin: 0;
+}
+
+h3 {
+  font-family: Franklin Gothic Medium;
+  color: #fff;
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+  font-size: 0.98rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+button {
+  display: flexbox;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+  margin-block-end: 10px;
+  background: skyblue;
+  text-align: center;
+  color: darkblue;
+  padding: 20px;
+}
